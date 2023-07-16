@@ -14,7 +14,7 @@ Esta es una prueba backend para construir un api rest, que nos permita realizar 
 
 1. Clonar el repositorio en la carperta del servidor web.
 2. por HTTPS git clone git@github.com/YhordanMiller01/SupermercadoBack.git
-3. Por Ssh git clone https://github.com/YhordanMiller01/SupermercadoBack.git
+3. Por Ssh git clone git@github.com:YhordanMiller01/SupermercadoBack.git
 
 
 Instalar paquetes.
