@@ -1,0 +1,108 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Supermercado",
+    "dateExported": "2023-07-16T02:00:02.012Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5604c486-9e28-4d15-aacb-ee3c30afd4bf",
+            "colId": "8308e866-beb1-47b3-8d7e-96d61135fa1e",
+            "containerId": "",
+            "name": "Frutas",
+            "url": "http://127.0.0.1:8000/api/fruta",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-16T01:53:10.273Z",
+            "modified": "2023-07-16T01:53:55.200Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a74029fb-cf3f-4052-90d4-49017544f180",
+            "colId": "8308e866-beb1-47b3-8d7e-96d61135fa1e",
+            "containerId": "",
+            "name": "CrearFruta",
+            "url": "http://127.0.0.1:8000/api/fruta",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-16T01:54:40.033Z",
+            "modified": "2023-07-16T01:59:48.506Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"tipo\":\"Banano\",\n\"cantidad\":4,\n\"precio\":1550\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "86af9e3d-abb8-43dc-b055-2495495a0da0",
+            "colId": "8308e866-beb1-47b3-8d7e-96d61135fa1e",
+            "containerId": "",
+            "name": "EditarFruta",
+            "url": "http://127.0.0.1:8000/api/fruta/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-07-16T01:55:52.230Z",
+            "modified": "2023-07-16T01:56:41.178Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"tipo\":\"Sapote\",\n\"cantidad\":4,\n\"precio\":1550\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "52d4b29b-f588-435b-9148-acba1ec56955",
+            "colId": "8308e866-beb1-47b3-8d7e-96d61135fa1e",
+            "containerId": "",
+            "name": "EliminarFruta",
+            "url": "http://127.0.0.1:8000/api/fruta/10",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-07-16T01:57:01.445Z",
+            "modified": "2023-07-16T01:57:31.770Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "745ebd30-d65a-49bf-909f-41c21e15eb1a",
+            "colId": "8308e866-beb1-47b3-8d7e-96d61135fa1e",
+            "containerId": "",
+            "name": "Pedidos",
+            "url": "http://127.0.0.1:8000/api/pedido",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-07-16T01:57:53.223Z",
+            "modified": "2023-07-16T01:58:06.851Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2b50357f-ded8-426f-9614-dceb5026b2be",
+            "colId": "8308e866-beb1-47b3-8d7e-96d61135fa1e",
+            "containerId": "",
+            "name": "CrearPedido",
+            "url": "http://127.0.0.1:8000/api/pedido",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-07-16T01:58:23.299Z",
+            "modified": "2023-07-16T01:59:07.112Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n  \"tipo\":\"Banano\",\n  \"cantidad\":1\n  },\n  {\n  \"tipo\":\"Pera\",\n  \"cantidad\":1\n  },\n  {\n  \"tipo\":\"Fresa\",\n  \"cantidad\":1\n  }\n]",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
