@@ -48,5 +48,5 @@ Configure las variables de entorno para base de datos
 5. Se pueden crear pedidos
 
 ## Nota
-En la carpeta app/EndPoints esta el .json, creado en Postman para los diferentes endpoints.
+En la carpeta EndPoints esta el .json, creado en Postman para los diferentes endpoints.
 
